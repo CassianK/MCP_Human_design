@@ -1,0 +1,29 @@
+{
+  "name": "human-design-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Human Design calculations compatible with n8n",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "human-design",
+    "mcp",
+    "mcp-server",
+    "n8n",
+    "astrology",
+    "bodygraph"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "swisseph": "^0.5.15"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
