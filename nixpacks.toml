@@ -1,6 +1,10 @@
 # Nixpacks configuration for Railway
 [phases.setup]
-nixPkgs = ["nodejs-20_x", "python3", "gcc"]
+nixPkgs = ["nodejs", "python3", "gcc"]
+
+[variables]
+NODE_VERSION = "20"
+
 [phases.install]
 cmds = ["npm ci"]
 
@@ -9,4 +13,3 @@ cmds = ["npm rebuild swisseph"]
 
 [start]
 cmd = "npm start"
-
